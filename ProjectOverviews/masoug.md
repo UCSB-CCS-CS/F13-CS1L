@@ -2,7 +2,7 @@
 ##3D Dodgeball Game##
 In dodgeball there are two teams of six players on opposing sides of 10x10 m court. For the sake of simplicity, this game will 
 not include all the rules and regulations of dodgeball as laid out [here](http://www.thendl.com/thendl-dodgeball-101.asp)
-(such as substitutes or rush). Ultimately, this game will allow the users to:
+(such as substitutes or "The Rush"). Ultimately, this game will allow the users to:
 * Form two teams of six via a computer network i.e. a networked game.
 * The two teams are "blue" or "red"
 * Players obtain balls by bumping into "inactive" (balls on floor, balls that have bounced, etc...) balls (if the player possesses 2 or fewer balls)
@@ -53,7 +53,7 @@ where the resulting game doesn't differ much from the original proof-of-concept.
 Where all features listed above are met. If I get here, something is wrong with the world (or I just got extremely lucky).
 
 So somewhere between best-case and worst case is where this project will most likely end up if the proof-of-concept passes. In other words,
-I really don't know what will happen :)
+I really don't know what will happen :) The project is a success if it ends up at least the worst-case state.
 
 ###Timeline###
 Each week there is a goal that must be met or else the project will immediately revert to the app engine or path tracer "mode" depending on how far along
@@ -64,11 +64,54 @@ A proof of concept app must demonstrate:
 * An FPS-style interface
 * Ball throwing
 * Reasonable texturing of models within the game
+* Basic court setup
 * Physics integration (balls bouncing, collisions, etc...)
 * Bouncing/collision detection (ball hit floor/player, player hit by active ball, etc...)
 * Everything is as simple as possible: players are just cubes, balls are just spheres, the environment is just a box, etc...
 
 If these conditions can be met by the end of the first week, then the game is greenlit. If not, then my project reverts to a pathtracer app.
+
+####Multiplayer (Week 2)####
+This stage must demonstrate multiple players in the game. Players can be controlled with keyboard strokes. Only one screen/view
+is required, no split-screen needed.
+* More than one player is displayed in the game; the model itself must be a rudimentary character
+* The players do not need articulation capabilities
+* The players can move
+* Only two players required
+* No network support required (no split screen)
+* Collision support; players don't have the capability to walk through walls, etc...
+* All players can throw an arbitrary number of balls
+
+If these requirements cannot be met, then the project is converted to a pathtracer.
+
+####Multiplayer II (Week 2)####
+The multiplayer-ness is enhanced, allowing 6 players on either sides of the court.
+* Six players on either sides of the court.
+* Players cannot travel to the opposite side.
+* Players are articulated with rudimentary animation (running, idle, throwing).
+* Rudimentary gaze following (player faces the right direction)
+* The game stops once a player gets hit by a ball (no "active/inactive" capability needed)
+
+If these requirements are not met, then the project is converted to a pathtracer.
+
+####FPS Enhancement (Week 3)####
+Dodgeball requires a wide field of view. Therefore, the camera projection matrix will need to be modified.
+* Experiment with the camera's projection matrix to allow for wider field of view
+* Add a crosshair :)
+* Add HUD elements; can be rudimentary text/images
+* Fine-tune the user interface/interaction with the FPS style.
+* Possibly rewrite the camera FPS system to avoid using Irrlicht's createFPSCamera...(...) function.
+
+If these requirements are not met, then the project is converted to a pathtracer.
+
+####FPS II (Week 4)####
+I'm anticipating issues with the HUD and FPS-ness of the game. The object for this week is to freeze further development and 
+assess the project's state. There may be requirements that have been pushed around, and this week would be the time to fix them.
+* Enhance HUD; display basic indicators like numbers and text
+* Begin adding state machines to the balls and players.
+* Start adding lives and ball possesion statistics.
+
+_NOTE_: If for a given week that most but not all requirements are met, then those requirement(s) may be moved to the next week.
 
 ***
 ***
