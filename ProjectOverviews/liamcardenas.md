@@ -32,4 +32,12 @@ This way no hacker or surveillance program will be able to:
 
 Note: The server will be open source thus allowing a large number of independent servers to run, thereby making it even harder for censorship to take place.
 
+Languages used: Java, PHP
+
 Suggestions: Allow for custom encryption methods
+
+Rough Timeline (will modify as needed):
+Week 1 - UML diagrams and planning, get new laptop in the mail, learn php
+Week 2 - P2P spike project, begin making server
+Week 3 - finish server, modular encryption spike project
+Week 4+ - work on client until end of course, making as feature rich as possible
