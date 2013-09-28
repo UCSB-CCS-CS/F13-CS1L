@@ -68,7 +68,7 @@ A proof of concept app must demonstrate:
 * Physics integration (balls bouncing, collisions, etc...)
 * Bouncing/collision detection (ball hit floor/player, player hit by active ball, etc...)
 * Everything is as simple as possible: players are just cubes, balls are just spheres, the environment is just a box, etc...
-
+* Devise an architecture for the game: Classes, methods, modules, etc...
 If these conditions can be met by the end of the first week, then the game is greenlit. If not, then my project reverts to a pathtracer app.
 
 ####Multiplayer (Week 2)####
