@@ -120,6 +120,9 @@ I'll switch my project to the pathtracer. This is the scary part ;)
 Networking will be tricky. Irrlicht is a C/C++ library yet I really want to use python's twisted API. So this week will be to check the 
 feasability of networking. I'm thinking of running a Twisted server that tells each client when to start/stop the game and the ip addresses 
 of all the other players.
+* Now that I've come to think of it, netowrking will be EXTREMELY tricky. Depending on how this week goes, if it looks as if 
+making the game networked is not going to happen, then the multiplayerness will come from splitscreen/multiwindow/monitors. The number of
+players will be reduce to 6 total per match (3-on-3).
 
 _NOTE_: If for a given week that most but not all requirements are met, then those unmet requirement(s) may be moved to the next week.
 
