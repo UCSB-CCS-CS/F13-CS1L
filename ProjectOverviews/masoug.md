@@ -111,7 +111,17 @@ assess the project's state. There may be requirements that have been pushed arou
 * Begin adding state machines to the balls and players.
 * Start adding lives and ball possesion statistics.
 
-_NOTE_: If for a given week that most but not all requirements are met, then those requirement(s) may be moved to the next week.
+This is the "point of no return" for the project: Past this point, there's really no turning back. All "failures" after this 
+point would cause the project to convert to the AppEngine state. So I'll be assessing the situation at this point to see if I should
+consider switching projects to a more manageable one. This is also the point at which if I think the game will not make its goals, then
+I'll switch my project to the pathtracer. This is the scary part ;)
+
+####Networking (Week 5)####
+Networking will be tricky. Irrlicht is a C/C++ library yet I really want to use python's twisted API. So this week will be to check the 
+feasability of networking. I'm thinking of running a Twisted server that tells each client when to start/stop the game and the ip addresses 
+of all the other players.
+
+_NOTE_: If for a given week that most but not all requirements are met, then those unmet requirement(s) may be moved to the next week.
 
 ***
 ***
