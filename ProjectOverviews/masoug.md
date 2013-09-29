@@ -68,7 +68,7 @@ A proof of concept app must demonstrate:
 * Physics integration (balls bouncing, collisions, etc...)
 * Bouncing/collision detection (ball hit floor/player, player hit by active ball, etc...)
 * Everything is as simple as possible: players are just cubes, balls are just spheres, the environment is just a box, etc...
-* Devise an architecture for the game: Classes, methods, modules, etc...
+* Devise an architecture for the game: Classes, methods, modules, etc... Everything is gonna be a state machine!!!
 If these conditions can be met by the end of the first week, then the game is greenlit. If not, then my project reverts to a pathtracer app.
 
 ####Multiplayer (Week 2)####
@@ -120,9 +120,28 @@ I'll switch my project to the pathtracer. This is the scary part ;)
 Networking will be tricky. Irrlicht is a C/C++ library yet I really want to use python's twisted API. So this week will be to check the 
 feasability of networking. I'm thinking of running a Twisted server that tells each client when to start/stop the game and the ip addresses 
 of all the other players.
-* Now that I've come to think of it, netowrking will be EXTREMELY tricky. Depending on how this week goes, if it looks as if 
-making the game networked is not going to happen, then the multiplayerness will come from splitscreen/multiwindow/monitors. The number of
-players will be reduce to 6 total per match (3-on-3). Controls will then be transferred to joysticks.
+* Now that I've come to think of it, netowrking will be EXTREMELY tricky (synchronizing bullet simulations is a nightmare). Depending on 
+how this week goes, if it looks as if making the game networked is not going to happen, then the multiplayerness will come from 
+splitscreen/multiwindow/monitors. The number of players will be reduce to 6 total per match (3-on-3). Controls will then be transferred to joysticks.
+
+####Super-Balls (Week 6)####
+Start experimenting with cheats in the system such as missile balls that track a specific player. Other ideas below:
+* Missile balls: They "lock-on" to other players and once thrown, will follow the target until it becomes inactive.
+  * It should be rather simple, just apply a force vector on the ball that is aimed at the player (difference between player
+    vector and ball vector). However, the ball will continue to fall, so at some point it will still hit the floor and become inactive.
+* Multi-throw: Throw all possessed balls at once.
+* Fireball: An impossibly large impulse is applied to the ball upon throwing, essentially becoming a bullet. This is kinda fun because with 
+the bounciness of the ball, the results could be amusing...
+* Aside from experimenting with superballs, if the network game idea is still sound, then this week will also be dedicated to 
+  * Synchronizing game states. Bullet has a serialization solution for transferring game states, I think that's the way to go.
+  * I'm thinking that the server will run its own bullet simulation of the game, and stream it to the clients.
+  * All clients send their moves to the server, while running the entire game themselves too. They just sync with the game server's version.
+  * Another way to do it is to have the server just relay each player's actions to everyone else and maintain its own official game simulation.
+    * The server would broadcast its official game state to all clients every few milliseconds to sync up
+Worst-comes-to-worst, I'll just focus on making the fireball. Its the balance between fun and ease of implementation.
+* If the networked game system doesn't look like its gonna work, then just setup the split-screen view...
+  * maybe we can limit the number of players on the network, while still having a networked game just with two computers only.
+  * Kinda peer-to-peer ish. That way we won't need a single computer to have to handle 6 seperate views...
 
 _NOTE_: If for a given week that most but not all requirements are met, then those unmet requirement(s) may be moved to the next week.
 
