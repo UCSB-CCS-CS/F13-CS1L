@@ -23,10 +23,40 @@ to this:
       ["number", 6]
     ]
 
-##### Parsing
+##### Parsing *(tends to be most difficult part)*
 Parser takes the list of tokens, outputs a **parse tree**
 Parse tree: [wiki](http://en.wikipedia.org/wiki/Parse_tree)
 represents structure of a string according to some [formal grammar](http://en.wikipedia.org/wiki/Formal_grammar)
+
+Parses the tokens according to syntax rules, outputs a representation of the syntactic structure:
+
+    {
+      operation: '/',
+      left: {
+        operations: '+',
+        left: 12,
+        right: 4
+      },
+      right: 6
+    }
+
+##### Evaluation
+Evaluator takes the parse tree and traverses it recursively
+
+The above parse tree would reduce down to:
+
+    {
+      operation: '/',
+      left: 16,
+      right: 6
+    }
+
+And finally:
+
+    2.667
+
+## JS implementation of AEL (Arithmetic Expression Language)
+
 
 
 ## meeting with Conrad
