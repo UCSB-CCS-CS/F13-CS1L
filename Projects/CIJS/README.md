@@ -8,4 +8,3 @@ Collaborators:
 Relevant repositories:
 - [CIJS repo](github.com/ucsb-cs-education/ucsb-cijs)
 - [picoc fork](https://github.com/ucsb-cs-education/picoc-ucsb)
-
