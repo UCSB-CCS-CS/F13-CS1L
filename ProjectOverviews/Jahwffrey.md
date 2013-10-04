@@ -17,6 +17,9 @@ Required tasks will be
 * Try to get your gnomes to reach a certain population
 * Attempt to find something critical underground.
 
+Weekly progress:
+Thought up idea, limited experiments in generation.
+
 #Current Goal
 Procedurally generate a world.
 Also, decide if I want to make this side or overview.
