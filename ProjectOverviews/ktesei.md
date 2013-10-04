@@ -10,6 +10,8 @@ Additionally, it should be able to integrate with a character sheet program. The
 
 I plan on using the Swing GUI Builder (formerly Project Matisse) that is built into Netbeans. 
 
+Here is a link to the "lite" version of GURPS: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0CEMQFjAD&url=http%3A%2F%2Fwww.sjgames.com%2Fgurps%2Flite%2F3e%2Fgurpslite.pdf&ei=mR5OUsacJYbxkAWA2oCwAg&usg=AFQjCNFgW9kJ7hZSsJjaYC2fnRqR4Y8cBA&sig2=C8OSsGJ6B5QkK5MwfioOew&bvm=bv.53537100,d.dGI
+
 #Thursday Oct 3
 Progress: So far I've managed to build a program that loads text from a file and displays it on a text frame using the tutorials at
 https://netbeans.org/kb/docs/java/gui-functionality.html
