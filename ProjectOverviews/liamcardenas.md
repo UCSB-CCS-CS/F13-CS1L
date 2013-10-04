@@ -36,7 +36,7 @@ Languages used: Java, PHP
 
 Suggestions: Allow for custom encryption methods
 
-#Rough Timeline (will modify as needed):
+#Rough Timeline:
 Week 1 - UML diagrams and planning, get new laptop in the mail, learn php
 Week 2 - P2P spike project, begin making server
 Week 3 - finish server, modular encryption spike project
