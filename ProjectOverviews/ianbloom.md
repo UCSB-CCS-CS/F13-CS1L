@@ -2,4 +2,6 @@ My intention is to get involved in the SNAP music synthesis project by attemptin
 
 https://github.com/ucsb-cs-education/Snap--Build-Your-Own-Blocks
 
+http://snap.berkeley.edu/
+
 # GOAL: 
