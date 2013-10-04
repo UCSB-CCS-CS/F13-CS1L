@@ -15,8 +15,10 @@ Buildings and doodads are placed ontop a rectangular grid that is overlayed onto
 Plan: First make a map editor that can make terrain show properly.
       Then make it so that buildings can be placed on terrain properly.
       Then make units that can by placed on terrain properly and add pathing.
+      Then make it support play through the internet
       
 # Goal for 10/10/2013
 
-(Ben: write in a goal here in terms of what your code will be able to do a week from today.)
+Make an editor that can have rhombus tiles of different terrain and hopefully make the borders around the terrain work as well.
+
 
