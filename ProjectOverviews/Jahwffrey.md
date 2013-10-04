@@ -22,3 +22,4 @@ Thought up idea, limited experiments in generation.
 #Current Goal
 Procedurally generate a world.
 Also, decide if I want to make this side or overview.
+Also, mouse. How does?
