@@ -1,1 +1,22 @@
-Something probably  involving space. And lines. Colored lines. In space. Space lines.
+Procedurally generate a two-dimensional world inwhich you can control an army of gnomes to work the land.
+
+The main idea is the generation which I have had trouble with in the past. There will be a set of rescources you can gather
+to further your gnomic empire. You will require things like wood, stone, metal, food, etc. to build houses, walls, etc.
+
+
+Required tasks will be
+* Farming for food
+* Building houses to increase population
+* Diggy Diggy Hole
+* Creating tools
+* hunting?? (if i have time)
+* Defending main base??
+
+# Potential Ideas for endgame:
+* Have a limited number of days inwhich to build defenses and survive a single massive attack
+* Try to get your gnomes to reach a certain population
+* Attempt to find something critical underground.
+
+#Current Goal
+Procedurally generate a world.
+Also, decide if I want to make this side or overview.
