@@ -1,4 +1,4 @@
-Open Ledger Instant Messaging
+#Open Ledger Instant Messaging
 
 Prism-breaking instant messaging system
 
@@ -36,8 +36,21 @@ Languages used: Java, PHP
 
 Suggestions: Allow for custom encryption methods
 
-Rough Timeline (will modify as needed):
+#Rough Timeline:
 Week 1 - UML diagrams and planning, get new laptop in the mail, learn php
 Week 2 - P2P spike project, begin making server
 Week 3 - finish server, modular encryption spike project
 Week 4+ - work on client until end of course, making as feature rich as possible
+
+#Progress
+UML Diagrams
+https://docs.google.com/file/d/0B13XoS92NKxWd1hpUGRUQUg0VHM/edit?usp=sharing
+https://docs.google.com/file/d/0B13XoS92NKxWMXVSU1h0dWlfZEk/edit?usp=sharing
+http://www.websequencediagrams.com/# with text "title Open Ledger Instant Messaging System
+
+User1->Server: Post Encrpyted Message
+User2->Server: Get Message Ledger
+note left of User2: User2 Parses Ledger\nand Decrypts Message
+User2->Server: Post Encrypted Message
+User1->Server: Get Message Ledger
+note right of User1: User2 Parses Ledger\nand Decrypts Message"
