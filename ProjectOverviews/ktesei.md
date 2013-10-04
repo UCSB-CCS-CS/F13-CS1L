@@ -15,7 +15,7 @@ Progress: So far I've managed to build a program that loads text from a file and
 https://netbeans.org/kb/docs/java/gui-functionality.html
 https://netbeans.org/kb/docs/java/gui-filechooser.html
 
-
+Goal for next week: Make a test database of the GURPS rules and load them into data structures. I will need to determine how the rules will be represented as data. 
 
 
 ____________________________________________________________________________
