@@ -1,1 +1,1 @@
-contributing to the arduino lights gif project for DPEA
+contributing to the arduino LED gif project for DPEA
