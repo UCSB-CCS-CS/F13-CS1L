@@ -1,3 +1,5 @@
+#GURPS subset generator
+
 My project is to make a GURPS subset generator / software character sheet.
 
 GURPS stands for "Generic Universal Role Playing System". GURPS has long been critizized for being far to rules heavy and complex. The issue here is a fundamantal misunderstanding of how to use GURPS. GURPS is actually a RPG _tool kit_ rather than a system ment to be played as is.
@@ -12,6 +14,10 @@ I plan on using the Swing GUI Builder (formerly Project Matisse) that is built i
 Progress: So far I've managed to build a program that loads text from a file and displays it on a text frame using the tutorials at
 https://netbeans.org/kb/docs/java/gui-functionality.html
 https://netbeans.org/kb/docs/java/gui-filechooser.html
+
+
+
+
 ____________________________________________________________________________
 Ignore below
 ___________________________________________________________________________
