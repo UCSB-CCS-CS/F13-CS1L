@@ -1,3 +1,1 @@
-r5sowa, put your project description here
-
-Maybe something to do with music.
+contributing to the arduino LED gif project for DPEA
