@@ -11,6 +11,8 @@ Required tasks will be
 * Creating tools
 * hunting?? (if i have time)
 * Defending main base??
+
+
 Potential Ideas for endgame:
 * Have a limited number of days inwhich to build defenses and survive a single massive attack
 * Try to get your gnomes to reach a certain population
