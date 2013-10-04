@@ -4,4 +4,4 @@ in a variety of different formats, including a chronological stream of all comic
 My goal for next week (10/10/13) are:
 * Learn about Google App Engine
 * Figure out how to determine when a random web comic has updated (efficiently)
-* If time permits, design and create a dummy GUI
+* Design and create a dummy GUI (if time permits)
