@@ -54,3 +54,9 @@ note left of User2: User2 Parses Ledger\nand Decrypts Message
 User2->Server: Post Encrypted Message
 User1->Server: Get Message Ledger
 note right of User1: User2 Parses Ledger\nand Decrypts Message"
+
+Update: Oct 5
+This is a link to the repo:
+https://github.com/liamcardenas/openledger
+
+More info will be available there!
