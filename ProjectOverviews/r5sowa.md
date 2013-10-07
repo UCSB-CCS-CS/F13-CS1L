@@ -6,7 +6,7 @@
   
   -expanded upon this code using int arrays to define different note increments of a scale
   
-    -using int array allows one to create a different array for each scale mode that can easily be switched between,          rather than hard coding a separate noteOn function for each note of each scale
+    >using int array allows one to create a different array for each scale mode that can easily be switched between,          rather than hard coding a separate noteOn function for each note of each scale
   
       -makes it possible to play multiple and varying scale modes
   
