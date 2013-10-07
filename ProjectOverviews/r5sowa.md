@@ -6,9 +6,9 @@
   
   -expanded upon this code using int arrays to define different note increments of a scale
   
-      -using int array allows one to create a different array for each scale mode that can easily be switched between,          rather than hard coding a separate noteOn function for each note of each scale
+    -using int array allows one to create a different array for each scale mode that can easily be switched between,          rather than hard coding a separate noteOn function for each note of each scale
   
-      		-makes it possible to play multiple and varying scale modes
+      -makes it possible to play multiple and varying scale modes
   
   Goals for next week:
  
@@ -18,7 +18,7 @@
  
   -use it to control some aspect of the sound/notes
  
-  		-i.e. pitch, velocity, amplitude/loudness, instrument number, scale mode
+  	-i.e. pitch, velocity, amplitude/loudness, instrument number, scale mode
   
   Longterm Goals:
  
