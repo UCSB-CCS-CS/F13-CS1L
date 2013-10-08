@@ -1,3 +1,5 @@
+Repo for code: https://github.com/Jahwffrey/Experiment-In-Generations
+
 Procedurally generate a two-dimensional world inwhich you can control an army of gnomes to work the land.
 
 The main idea is the generation which I have had trouble with in the past. There will be a set of rescources you can gather
@@ -25,3 +27,8 @@ Thought up idea, limited experiments in generation.
 Procedurally generate a world.
 Also, decide if I want to make this side or overview.
 Also, how does mouse?
+
+Update on 10/07/2013
+====================
+
+Repo is now in : https://github.com/Jahwffrey/Experiment-In-Generations
