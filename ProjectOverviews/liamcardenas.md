@@ -56,8 +56,11 @@ User2->Server: Post Encrypted Message
 User1->Server: Get Message Ledger
 note right of User1: User2 Parses Ledger\nand Decrypts Message"
 
-Update: Oct 5
+<strong>Update: Oct 5</strong>
 This is a link to the repo:
 https://github.com/liamcardenas/openledger
 
 More info will be available there!
+
+<strong>Update: Oct 8</strong>
+I am officially decoupling the openledger system and the chat client to be more modular and customizable. The separate chat program repo is located here: https://github.com/liamcardenas/sxc
