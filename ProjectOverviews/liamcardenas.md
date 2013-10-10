@@ -64,3 +64,6 @@ More info will be available there!
 
 <strong>Update: Oct 8</strong>
 I am officially decoupling the openledger system and the chat client to be more modular and customizable. The separate chat program repo is located here: https://github.com/liamcardenas/sxc
+
+<strong>Update: Oct 9</strong>
+Created barebones version of Open Ledger System
