@@ -37,10 +37,11 @@ Languages used: Java, PHP
 Suggestions: Allow for custom encryption methods
 
 #Rough Timeline:
-Week 1 - UML diagrams and planning, get new laptop in the mail, learn php
-Week 2 - P2P spike project, begin making server
-Week 3 - finish server, modular encryption spike project
-Week 4+ - work on client until end of course, making as feature rich as possible
+-Week 1 - UML diagrams and planning, get new laptop in the mail, learn php
+-Week 2 - basic php openledger system barebones
+-Week 3 - basic chat client barebones
+-Week 4 - implement security in openledger system
+-Week 5+ - TBD
 
 #Progress
 UML Diagrams
@@ -54,3 +55,15 @@ note left of User2: User2 Parses Ledger\nand Decrypts Message
 User2->Server: Post Encrypted Message
 User1->Server: Get Message Ledger
 note right of User1: User2 Parses Ledger\nand Decrypts Message"
+
+<strong>Update: Oct 5</strong>
+This is a link to the repo:
+https://github.com/liamcardenas/openledger
+
+More info will be available there!
+
+<strong>Update: Oct 8</strong>
+I am officially decoupling the openledger system and the chat client to be more modular and customizable. The separate chat program repo is located here: https://github.com/liamcardenas/sxc
+
+<strong>Update: Oct 9</strong>
+Created barebones version of Open Ledger System
