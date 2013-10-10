@@ -11,4 +11,5 @@ So far I have a basic menu screen implemented
 Goals for 10/10:
 
 * Clean up the menu screen a bit and make it look nicer
-* Begin implementing animations for "planets"
+* Begin implementing planets
+* The planets should be placed in such a way that no planets are overlapping and they are reasonably spread out
