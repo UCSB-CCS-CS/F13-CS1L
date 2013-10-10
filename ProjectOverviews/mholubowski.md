@@ -1,56 +1,45 @@
 
-Kinnly - CCS 1L
+CIJS - CCS 1L
 ===============
 
 ## Abstract
-> A **private & simple *Instagram* ** for my family
+> A **C Interpreter** written in JavaScript
 
-My project will require the design and development of a **native iOS application** which speaks to a **Ruby on Rails back end**.
+CI.js will be a loose port of PicoC - a C interpreter written in C - to the JavasScript language.
 
-`Kinnly` will be driven by the sole goal of creating something **my family** (not tech savvy) uses daily to share photos and stay in touch.
+The primary motivation is to allow the C language to be interpreted within the browser - leading to many interesting applications.
 
-The primary challenges involve: learning the Objective-C programming language, understanding native iOS development, and developing a secure and efficient RESTful api for consumption by mobile devices.
-
-
-## My Motivation's
-My parents have recently become both iPhone users and empty nesters. I'll have immediate beta users who I care about.
-
-- **Kinnly's success will be measured solely by my family's adoption of it**
-
-Additionally, this project aligns perfectly with my goals as a software engineer and student:
-
-- Continue exploring RESTful design, Ruby, Javascript, and Rails
-- Learn more about SQL, deployment, caching, and API design (I'm also taking CS290B)
-- Break into something entirely new with Objective-C, iOS, mobile consumption of API
-
+There is also an undeniable opportunity for me to lear **a lot** about both C, JS, formal language theory, and interpreters.
 
 ## High-level milestones
-- Objective-C
-- Cocoa
-- iOS development best practices
-
-- Rails back end
-- API consumption
-    - authentication (see reference)
-- Image upload, processing, storage (s3), and efficient retrieval
+- Learn C well
+- Expand working knowledge of JS
+- Interpreter fundamentals
 
 ## Timeline
 
 ###### week 1
-- [ ] flesh out plan
+- [√] flesh out plan
 - [ ] fill out timeline
-- [ ] find more resources
+- [√] find more resources
 
 ###### week 2
-- [ ] mocks / UX / flow
+- [√] build simple javascript Lexer for made up language
 
 ###### week 3
+- [ ] build simple javascript Parser for made up language
 
 ###### week 4
+- [ ] meet with Prof. Conrad and get high level overview of C PicoC 
+- [ ] thorough code reading with annotation. Work on mental map of PicoC
 
 ###### week 5
+- [ ] week 2 of PicoC reading with heavy annotation.
+- [ ] understand Picoc's choices of algorithms for interpreter
+- [ ] begin studying these specific algorithms/patters
 
 ###### week 6
+- [ ] 
 
 ###### week 7
 
