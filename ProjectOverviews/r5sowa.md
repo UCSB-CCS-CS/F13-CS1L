@@ -1,3 +1,5 @@
+Repository: https://github.com/r5sowa/ArduinoMIDI
+
 4 Oct. 2013 Friday
   
   - met with Alex, Austin, and Conrad for an overview of the Arduino MIDI shield and board and the program they had previosuly created for it
