@@ -21,4 +21,10 @@ Plan: First make a map editor that can make terrain show properly.
 
 Make an editor that can have rhombus tiles of different terrain and hopefully make the borders around the terrain work as well.
 
+#New Project
+My new project is to make an app to teach people HTML tags. The game plays like a novel where you can make choices of dialogue in response to the story. HTML is taught when characters ask the player to type in code that is either supposed to produce a certain output or just repeat what the character said verbatm. In the cases where they have to produce some output there will be a preview of the webpage that they typed and an editor where they can type in the code.
 
+#Goal for 10/17/2013
+Make a GUI with scrollling text. When the text reaches the bottom, a "next" button becomes clickable. Also if time allows, have displayable dialogue responses that can be clicked.
+#Goal for 10/24/2013
+Make the text that shows in the GUI and the dialogue choices come from a text file or something. Make an editor that can be used to easily make dialogue trees. The editor should check to make sure that every dialogue choice leads to an end result.
