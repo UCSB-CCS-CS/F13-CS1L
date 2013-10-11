@@ -18,3 +18,5 @@ Longterm Goals:
   - synchronized visualization with Processing
   - add back the other sensors, etc on Alex and Austin's original project
   - add range finder and 3D controller that Kevin was talking about in class
+  - is there a way to have arduino communicate wirelessly with the computer?
+    - this would allow for a better physical user interface with the accelerometer and make for better musical "performances"
