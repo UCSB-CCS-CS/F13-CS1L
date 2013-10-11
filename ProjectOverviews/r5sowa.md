@@ -8,7 +8,7 @@ Repository: https://github.com/r5sowa/ArduinoMIDI
     - using int array allows one to create a different array for each scale mode that can easily be switched between, rather than hard coding a separate noteOn function for each note of each scale
       - makes it possible to play multiple and varying scale modes
   
-Goals for next week:
+Shortterm Goals:
   - get reacquainted with Arduino accelerometer shield and program
     - figure out how to get it to talk/feed data to MIDI program
   - use accelerometer to control some aspect of the sound/notes
