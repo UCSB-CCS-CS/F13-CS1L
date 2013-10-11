@@ -1,3 +1,6 @@
+
+Repo: https://github.com/UCSB-CCS-CS/quantumBreakout
+
 Sarah's project ideas: 
 
 Idea 1: breakout-like game with quantum superposition
