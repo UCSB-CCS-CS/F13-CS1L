@@ -40,11 +40,11 @@ Suggestions: Allow for custom encryption methods
 
 #Rough Timeline:
 
--Week 1 - UML diagrams and planning, get new laptop in the mail, learn php
--Week 2 - start basic php openledger system barebones
--Week 3 - start basic chat client barebones, finish barebones php open ledger
--Week 4 - implement security in openledger system, finish barebones chat client
--Week 5+ - TBD
+- Week 1 - UML diagrams and planning, get new laptop in the mail, learn php
+- Week 2 - start basic php openledger system barebones
+- Week 3 - start basic chat client barebones, finish barebones php open ledger
+- Week 4 - implement security in openledger system, finish barebones chat client
+- Week 5+ - TBD
 
 #Progress
 UML Diagrams
