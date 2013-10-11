@@ -1,4 +1,4 @@
-Repo for code: https://github.com/Jahwffrey/Experiment-In-Generations
+Repo for code: https://github.com/Jahwffrey/GnomeLand
 
 Procedurally generate a two-dimensional world inwhich you can control an army of gnomes to work the land.
 
@@ -22,11 +22,11 @@ Potential Ideas for endgame:
 
 Weekly progress:
 Thought up idea, limited experiments in generation.
+World generated and visible. Screen can be navigated but has some tearing problems.
 
 #Current Goal
-Procedurally generate a world.
-Also, decide if I want to make this side or overview.
-Also, how does mouse?
+Get mouse to work.
+Make sure screen stays onscreen.
 
 Update on 10/07/2013
 ====================
