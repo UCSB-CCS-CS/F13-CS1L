@@ -1,6 +1,6 @@
 https://github.com/ucsb-cs-education/ucsb-cijs
 
-https://github.com/ucsb-cs-education/ucsb-picoc
+https://github.com/ucsb-cs-education/picoc-ucsb
 
 
 CIJS - CCS 1L
