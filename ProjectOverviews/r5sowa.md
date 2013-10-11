@@ -1,6 +1,6 @@
 Repository: https://github.com/r5sowa/ArduinoMIDI
 
-4 Oct. 2013 Friday
+4 Oct. 2013 Friday (Week 1)
   
   - met with Alex, Austin, and Conrad for an overview of the Arduino MIDI shield and board and the program they had previosuly created for it
   - used basic MIDI Arduino code by Nathan Seidle that makes the Arduino play chromatic scales with each MIDI instrument
