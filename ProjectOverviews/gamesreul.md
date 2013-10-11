@@ -1,3 +1,5 @@
+Repo for Code: https://github.com/Gamesreul/Reul
+
 My project is going to be (an attempt at) an iOS-based application for relaying information to the greater UCSB population of the various volunteering opportunities available on campus on a daily basis, similar to how the Locos Rewards app provides a list of sporting events. The application will display the time of the event, a brief description, a location (that will quick-link to the Maps app for ease of direction), and a notification system for reminding users of upcoming events they wish to participate in or attend.
 
 I intend to seek the assistance of the Associated Students program in order to get a complete list of the various volunteer opportunities, and as a novice programmer with little programming experience outside of Java, I would be extremely grateful for outside programming help as well.
