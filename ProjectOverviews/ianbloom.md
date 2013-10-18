@@ -4,4 +4,6 @@ https://github.com/ucsb-cs-education/Snap--Build-Your-Own-Blocks
 
 http://snap.berkeley.edu/
 
+https://github.com/ianbloom/ian-snap-filter
+
 # GOAL: 
