@@ -40,11 +40,21 @@ Suggestions: Allow for custom encryption methods
 
 #Rough Timeline:
 
+Old Timeline
 - Week 1 - UML diagrams and planning, get new laptop in the mail, learn php
 - Week 2 - start basic php openledger system barebones
 - Week 3 - start basic chat client barebones, finish barebones php open ledger
 - Week 4 - implement security in openledger system, finish barebones chat client
 - Week 5+ - TBD
+
+The project itself has evolved, and so must the timeline.
+
+New Timeline:
+- Week 3 - Make basic server/client pair
+- Week 4 - Read Practical JXTA 2
+- Week 5 - Make a basic P2P connection
+- Week 6 - Add full functionality to server
+- Week 7+ - TBD
 
 #Progress
 UML Diagrams
@@ -70,3 +80,6 @@ I am officially decoupling the openledger system and the chat client to be more 
 
 <strong>Update: Oct 9</strong>
 Created barebones version of Open Ledger System
+
+<strong>Update: Oct 17</strong>
+Changes server to Java
