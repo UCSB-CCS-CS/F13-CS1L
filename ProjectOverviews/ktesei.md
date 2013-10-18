@@ -1,5 +1,8 @@
 #GURPS subset generator
 
+My repo:
+https://github.com/ktesei/GurpsSystemGenerator
+
 My project is to make a GURPS subset generator / software character sheet.
 
 GURPS stands for "Generic Universal Role Playing System". GURPS has long been critizized for being far to rules heavy and complex. The issue here is a fundamantal misunderstanding of how to use GURPS. GURPS is actually a RPG _tool kit_ rather than a system ment to be played as is.
@@ -19,16 +22,21 @@ https://netbeans.org/kb/docs/java/gui-filechooser.html
 
 Goal for next week: Make a test database of the GURPS rules and load them into data structures. I will need to determine how the rules will be represented as data. 
 
+#Thursday Oct 17
+Progess: Previous goal acheived.
 
-____________________________________________________________________________
-Ignore below
-___________________________________________________________________________
-My starting project is drawing a point set. But wait, there is more! 
+Format for perks is
+<name><type><value><per value><source><tags><text>
 
-The points are represented relative to eachother. A exists, B exists, C is to the right of the line formed by AB/BA. A shorter version of this is [A|Entire Plan],[B|Entire Plan],[C|AB],[D|AB,AC,BC],[E|AB,AC,AD,BC,BD,CD]. We can represent each of the relations in binary, so the entire representation can be reduced to an integer.
+where 
+* name is self explanitory,
+* type is an integer where the bits represent the difference types it can be (supernatural, mind, body, social, etc)
+* value is the cost in GURPS points
+* per val is an elaboration of the cost (some cost a certain amount of points "per" level/strength points/etc) (may be left blank)
+* source is a String representing the source book it is from (there are over 100 of them)
+* tags is different tags that the perks can be sorted by later (can be left blank)
+* text is the rules explaining what the perk actually does.
 
-I must convert these "Siegel Space Representations" into regular X,Y coordinates in order to draw them. This is greatly aided by the fact that we have the ability to generate a matrix with the angular relationships. If I can solve this matrix then I can easily convert it into X,Y coordinates. 
+I used "~" to separate the tokens rather than "," because there are many "," in the <text> token
 
-Because we cannot generate a angle matrix from an invalide Siegel Space, the Angle matrix is gauranteed to have infinitely many solutions. Finding a solution is trivial (Row reduce, plug stuff in), but this can result in getting angles outside of the range of 0-180. 
-
-To solve this, I'm implementing the simplex agorithm to solve the parametric form of the solution.
+Goal for next week: Decide which widget(s) will represent the GURPS perks and implement them. I should no longer have to use the text field.
