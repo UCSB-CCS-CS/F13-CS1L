@@ -1,6 +1,6 @@
 #Open Ledger Instant Messaging
 
-<strong>Repos:</strong> https://github.com/liamcardenas/openledger https://github.com/liamcardenas/sxc https://github.com/liamcardenas/ccs-cs1l-experiements
+<strong>Repos:</strong> https://github.com/liamcardenas/sxc https://github.com/liamcardenas/ccs-cs1l-experiements
 
 Prism-breaking instant messaging system
 
@@ -83,3 +83,6 @@ Created barebones version of Open Ledger System
 
 <strong>Update: Oct 17</strong>
 Changes server to Java
+
+<strong>Update: Oct 2</strong>
+Changed emphasis from openledger to sxc
