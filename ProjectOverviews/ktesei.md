@@ -40,3 +40,8 @@ where
 I used "~" to separate the tokens rather than "," because there are many "," in the <text> token
 
 Goal for next week: Decide which widget(s) will represent the GURPS perks and implement them. I should no longer have to use the text field.
+
+#Thursday Nov 7
+Progress: I have two JLists for perks that are used/not used. You can move perks back and forth and highlighting perks cause thier data to be displayed in the text window.
+
+See the README at https://github.com/ktesei/GurpsSystemGenerator for a more detailed explanation for the project.
