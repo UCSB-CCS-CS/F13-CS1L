@@ -45,3 +45,11 @@ Goal for next week: Decide which widget(s) will represent the GURPS perks and im
 Progress: I have two JLists for perks that are used/not used. You can move perks back and forth and highlighting perks cause thier data to be displayed in the text window.
 
 See the README at https://github.com/ktesei/GurpsSystemGenerator for a more detailed explanation for the project.
+
+#Thursday Nov 14
+Progress: I made the program output a xsl-fo file and conver it to a pdf with apache FOP, as per Phil's suggestion. My investigation of XML/XSL-FO/FOP has convinced me to save the data base as XML and to provide far more formatting options than before. My original intention was to provide a few styles you can print with, but I think I can provide a more detailed toolkit for formatting aswell.
+
+Goal for next week: I want to reorganize my project now that I know what tools I have to work with. I think my vision for it is more complete. I need to: 
+* customize the export button to have options for the different formats
+* add data base editing 
+* add picture pairing with perks/rules
