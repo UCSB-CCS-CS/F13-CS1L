@@ -1,6 +1,7 @@
 Repository: https://github.com/zhelfinstein/ComicOrganizer
 
 Working web app link: http://my-comic-updater.appspot.com/
+
 Future development link: http://continuous-comics.appspot.com/
 
 ###Keep in mind that this is a work in progress; it may or may not function as expected###
